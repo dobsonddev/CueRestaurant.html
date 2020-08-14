@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cue Lunch Menu</title>
+  </head>
+  <body>
+    <div class="main-container">
+        <div class="lunch-container">
+          <div class="lunch">Lunch</div>
+        </div>
+        <div class="item-section-container">
+          <div class="section-title">Meats</div>
+        <div class="meats-byThePound">BY THE POUND</div>
+      </div>
+      <div class="meats-main-container">
+      <div class="meats-container">
+        <div class="items">
+          <div>SLICED USDA PRIME BEEF BRISKET</div>
+          <div>PULLED PORK</div>
+          <div>TURKEY BREAST</div>
+          <div>PORK SPARE RIBS</div>
+        </div>
+        <div class="prices">
+          <div>$22</div>
+          <div>$18</div>
+          <div>$18</div>
+          <div>$19</div>
+        </div>
+    </div>
+    </div>
+
+    <div class="item-section-container">
+      <div class="section-title">Sandwhiches</div>
+    </div>
+    <div class="meats-container">
+      <div class="items">
+        <div>PULLED PORK</div>
+        <div>SLICED TURKEY BREAST</div>
+        <div>SLICED TEXAS HOT GUTS SAUSAGE</div>
+      </div>
+      <div class="prices">
+        <div>$11</div>
+        <div>$9</div>
+        <div>$8</div>
+      </div>
+    </div>
+
+    <div class="item-section-container">
+      <div class="section-title">Sides</div>
+    </div>
+    <div class="meats-container">
+      <div class="items">
+        <div>CREAMY POTATO SALAD</div>
+        <div>TANGY COLESLAW</div>
+        <div>COWBOY PINTO BEANS</div>
+        <div>GREEN CHILE CORN PUDDING</div>
+        <div>FRIES</div>
+        <div>MAC & CHEESE</div>
+      </div>
+      <div class="prices">
+        <div>$5</div>
+        <div>$4</div>
+        <div>$4</div>
+        <div>$5</div>
+        <div>$3</div>
+        <div>$4</div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<style>
+  body {
+    background-color: black;
+    font-family: "Red Rose", cursive;
+  }
+
+  .main-container {
+    background-color: #ded1bd;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    height: 90vh;
+    width: 80vw;
+  }
+
+  .lunch-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .lunch {
+    font-weight: bolder;
+    font-size: 88px;
+    border-bottom: 8px black;
+    border-bottom-style: double;
+    border-color: black;
+  }
+
+  .item-section-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 5vh 15vw 3vh 15vw;
+    /* border-style: solid; */
+    height: 2vh;
+  }
+
+  .section-title {
+    font-weight: bold;
+    font-size: 48px;
+    padding-left: 3vw;
+    color: #ca5507f1;
+  }
+
+  .meats-byThePound {
+    border-bottom-style: solid;
+    border-color: black;
+    border-width: thin;
+    height: 1.5vh;
+    padding-top: 2vh;
+    font-size: 15px;
+  }
+
+  .meats-container {
+    display: flex;
+    /* flex-direction: column; */
+    align-content: center;
+    justify-content: space-between;
+    margin: 0 16.5vw 0;
+    font-size: 24px;
+  }
+
+  .items{
+    font-size: 26px;
+  }
+
+  .prices{
+    font-size: 26px;
+  }
+
+  /* .meats-main-container {
+    border-style: double;
+  } */
+
+</style>
